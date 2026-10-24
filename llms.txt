@@ -22,7 +22,7 @@ Key facts:
 - [Nairobi](https://laloo.org/nairobi/): 2211 public restrooms, 0 hand-picked spots
 - [Los Angeles](https://laloo.org/los-angeles/): 1177 public restrooms, 118 hand-picked spots
 - [Paris](https://laloo.org/paris/): 1210 public restrooms, 96 hand-picked spots
-- [Moscow](https://laloo.org/moscow/): 1384 public restrooms, 0 hand-picked spots
+- [Moscow](https://laloo.org/moscow/): 1377 public restrooms, 0 hand-picked spots
 - [New York City](https://laloo.org/new-york/): 774 public restrooms, 96 hand-picked spots
 - [Taipei](https://laloo.org/taipei/): 1234 public restrooms, 0 hand-picked spots
 - [Sydney](https://laloo.org/sydney/): 1144 public restrooms, 0 hand-picked spots
