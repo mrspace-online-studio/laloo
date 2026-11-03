@@ -54,6 +54,11 @@ def areas(bbox):
       print("  areas failed", s, e)
   return None
 
+def wheelchair(t):
+  # OSM tekerlekli sandalye etiketi: yes/limited/no, yoksa None (bot "bilgi yok" der)
+  v = (t.get("wheelchair") or t.get("toilets:wheelchair") or "").strip().lower()
+  return v if v in ("yes", "limited", "no") else None
+
 def parse(data):
   out, seen = [], set()
   for e in data["elements"]:
@@ -71,7 +76,7 @@ def parse(data):
               "Seasonal" if t.get("seasonal") not in (None, "no") else "", t.get("opening_hours", "")]
       out.append({"osm_id": f'{e["type"]}/{e["id"]}', "lat": round(lat, 6), "lng": round(lng, 6), "kind": "water",
                   "name": t.get("name") or "Drinking water", "info": ", ".join(x for x in info if x),
-                  "operator": (t.get("operator") or "")[:120] or None, "charge": None})
+                  "operator": (t.get("operator") or "")[:120] or None, "charge": None, "wheelchair": wheelchair(t)})
       continue
     pub = t.get("amenity") == "toilets"
     if pub and t.get("access") in ("private", "no"): continue
@@ -91,6 +96,7 @@ def parse(data):
       "info": ", ".join(x for x in info if x),
       "operator": (t.get("operator") or "")[:120] or None,
       "charge": (t.get("charge") or "")[:60] or None,
+      "wheelchair": wheelchair(t),
     })
   return out
 
