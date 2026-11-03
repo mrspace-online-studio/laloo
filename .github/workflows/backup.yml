@@ -29,3 +29,16 @@ jobs:
           name: laloo-backup-${{ github.run_number }}
           path: backup.tar.gz.enc
           retention-days: 90
+      - name: Report run to Mr. Space
+        if: always()
+        env:
+          SUPABASE_SECRET: ${{ secrets.SUPABASE_SECRET }}
+          LALOO_LOG_KEY: ${{ secrets.LALOO_LOG_KEY }}
+          JOB_OK: ${{ job.status == 'success' }}
+          JOB_NAME: ${{ github.workflow }}
+          SUMMARY: run ${{ github.run_number }} (${{ github.event_name }})
+        run: |
+          [ -n "$LALOO_LOG_KEY" ] || { echo "LALOO_LOG_KEY secret missing, skipping"; exit 0; }
+          body=$(jq -nc --arg k "$LALOO_LOG_KEY" --arg j "$JOB_NAME" --argjson ok "$JOB_OK" --arg s "$SUMMARY" '{p_key:$k,p_job:$j,p_ok:$ok,p_summary:$s}')
+          curl -sS -m 20 -X POST "https://tizfdnsjhhepxnqqrzuk.supabase.co/rest/v1/rpc/ms_job_ping" \
+            -H "apikey: $SUPABASE_SECRET" -H "Content-Type: application/json" -d "$body" || true
