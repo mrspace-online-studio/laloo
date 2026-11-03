@@ -76,7 +76,7 @@ Key facts:
 - [Lima](https://laloo.org/lima/): 334 public restrooms, 0 hand-picked spots
 - [Riga](https://laloo.org/riga/): 333 public restrooms, 0 hand-picked spots
 - [Seattle](https://laloo.org/seattle/): 324 public restrooms, 0 hand-picked spots
-- [Portland](https://laloo.org/portland/): 318 public restrooms, 0 hand-picked spots
+- [Portland](https://laloo.org/portland/): 317 public restrooms, 0 hand-picked spots
 
 ## Loo Routes (walks with bathroom stops)
 - [Santa Monica to Venice Beach: every bathroom stop on the walk](https://laloo.org/routes/santa-monica-to-venice-beach-bathrooms/)
