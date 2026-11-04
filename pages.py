@@ -176,6 +176,7 @@ article p{margin:0 0 14px}.box{background:var(--tag);border-radius:12px;padding:
 footer{max-width:760px;margin:0 auto;padding:18px 16px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}"""
 
 # Mailden/QR'dan ?ref= ile gelen ziyaretçinin kaynağı haritaya geçerken kaybolmasın
+CHAT_JS = '<script src="https://mrspace.online/assets/site-chat.js" data-site="laloo" defer></script>'
 REFJS = """<script>(()=>{const r=new URLSearchParams(location.search).get("ref");if(!r||!/^[A-Za-z0-9_-]{1,60}$/.test(r))return;document.querySelectorAll('a[href^="/?"],a[href^="/stories/?"]').forEach(a=>{const u=new URL(a.href);u.searchParams.set("ref",r);a.href=u.pathname+u.search;});})();</script>"""
 
 def tag_html(tags, lang):
@@ -214,6 +215,7 @@ def page(lang, title, desc, canon, alts, body, slug_for_lang):
 </main>
 <footer><a href="/">laloo.org · {esc(T[lang]["home"])}</a> · <a href="{'/cities/' if lang == 'en' else f'/{lang}/cities/'}">{esc(T[lang]["all"])}</a> · <a href="{'/about/' if lang == 'en' else f'/{lang}/about/'}">{esc(ABOUT[lang])}</a> · <a href="https://www.trustpilot.com/review/laloo.org" rel="noopener">Trustpilot</a><br>{esc(T[lang]["src"])}</footer>
 {REFJS}
+{CHAT_JS}
 </body>
 </html>
 """
@@ -408,6 +410,7 @@ article p{{font-size:18px;line-height:1.7}}.gal{{display:grid;grid-template-colu
 </main>
 <footer><a href="/">laloo.org</a> · <a href="/stories/">Laloo Stories</a> · <a href="/join/">Early members</a></footer>
 {REFJS}
+{CHAT_JS}
 </body>
 </html>
 """
