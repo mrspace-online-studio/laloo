@@ -1,4 +1,3 @@
-# site-guard v1
 # AI egitim ve veri toplama botlari: yasak
 User-agent: GPTBot
 User-agent: ClaudeBot
