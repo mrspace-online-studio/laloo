@@ -8,6 +8,46 @@ import html, json, math, os, re, shutil, unicodedata
 from datetime import datetime, timezone
 
 SITE = "https://laloo.org"
+# site-guard v1: AI egitim botlari yasak, AI arama botlari izinli. Kaynak: 03-teknik/site-guard/robots.txt
+ROBOTS = """# AI egitim ve veri toplama botlari: yasak
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: Amazonbot
+User-agent: AI2Bot
+User-agent: omgili
+User-agent: Timpibot
+User-agent: ImagesiftBot
+User-agent: img2dataset
+Disallow: /
+
+# AI arama ve kullanici asistanlari: izinli (ChatGPT Search, Claude, Perplexity'de gorunmek icin)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+Disallow: /admin.html
+Disallow: /no-scrape/
+
+# Diger herkes (Google, Bing vb.)
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /no-scrape/
+"""
+HONEYPOT = '<a href="/no-scrape/" rel="nofollow noopener" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">archive</a>'
 LANGS = ["en", "es", "de", "fr", "tr"]
 MIN_PLACES = 10          # bundan az yeri olan şehre sayfa yok (zayıf sayfa Google'da zarar)
 PER_AREA = 25            # semt başına en fazla umumi tuvalet
@@ -212,7 +252,7 @@ def page(lang, title, desc, canon, alts, body, slug_for_lang):
 <main>
 {body}
 </main>
-<footer><a href="/">laloo.org · {esc(T[lang]["home"])}</a> · <a href="{'/cities/' if lang == 'en' else f'/{lang}/cities/'}">{esc(T[lang]["all"])}</a> · <a href="{'/about/' if lang == 'en' else f'/{lang}/about/'}">{esc(ABOUT[lang])}</a> · <a href="https://www.trustpilot.com/review/laloo.org" rel="noopener">Trustpilot</a><br>{esc(T[lang]["src"])}</footer>
+<footer><a href="/">laloo.org · {esc(T[lang]["home"])}</a> · <a href="{'/cities/' if lang == 'en' else f'/{lang}/cities/'}">{esc(T[lang]["all"])}</a> · <a href="{'/about/' if lang == 'en' else f'/{lang}/about/'}">{esc(ABOUT[lang])}</a> · <a href="https://www.trustpilot.com/review/laloo.org" rel="noopener">Trustpilot</a><br>{esc(T[lang]["src"])}{HONEYPOT}</footer>
 {REFJS}
 </body>
 </html>
@@ -406,7 +446,7 @@ article p{{font-size:18px;line-height:1.7}}.gal{{display:grid;grid-template-colu
 <main>
 {body_html}
 </main>
-<footer><a href="/">laloo.org</a> · <a href="/stories/">Laloo Stories</a> · <a href="/join/">Early members</a></footer>
+<footer><a href="/">laloo.org</a> · <a href="/stories/">Laloo Stories</a> · <a href="/join/">Early members</a>{HONEYPOT}</footer>
 {REFJS}
 </body>
 </html>
@@ -571,6 +611,6 @@ def generate(cities, places_for, root=".", now=None, stories=None):
   sm += [f"  <url><loc>{esc(u)}</loc></url>" for u in urls]
   sm.append("</urlset>")
   write(os.path.join(root, "sitemap.xml"), "\n".join(sm) + "\n")
-  write(os.path.join(root, "robots.txt"), f"User-agent: *\nDisallow: /admin.html\nSitemap: {SITE}/sitemap.xml\n")
+  write(os.path.join(root, "robots.txt"), ROBOTS + f"\nSitemap: {SITE}/sitemap.xml\n")  # site-guard v1
   print(f"Pages: {len(listed)} cities, {len(story_list)} stories, {len(made)} files")
   return listed
