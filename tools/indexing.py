@@ -89,7 +89,7 @@ def submit(root):
     key = config['indexnow_key']; host = urlparse(site).netloc
     if len(key) != 32 or any(c not in '0123456789abcdef' for c in key): raise ValueError('Invalid IndexNow key')
     key_url = site + '/' + key + '.txt'
-    with urlopen(key_url, timeout=30) as response:
+    with urlopen(Request(key_url, headers={'User-Agent': 'SiteIndexing/1.0'}), timeout=30) as response:
         if response.read().decode().strip() != key: raise ValueError('Published IndexNow key does not match')
     # Never submit URLs before the exact built manifest has reached production.
     expected = json.loads((root / 'indexing-manifest.json').read_text())
