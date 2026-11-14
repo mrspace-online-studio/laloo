@@ -267,3 +267,8 @@ try:
   pages.generate(all_cities, lambda cid: all_rows(f"places?{cols}&city=eq.{cid}&active=eq.true&kind=in.(tip,public)&order=id"), stories=stories)
 except Exception as ex:
   print("pages failed:", ex)
+
+# Refresh search metadata after all generated and static pages are available.
+from tools.indexing import build as build_indexing
+from pathlib import Path as IndexingPath
+build_indexing(IndexingPath(__file__).resolve().parent)

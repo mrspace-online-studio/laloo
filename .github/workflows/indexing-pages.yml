@@ -1,0 +1,69 @@
+name: Build and deploy indexed pages
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Update bathrooms]
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '41 8 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: indexing-pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test indexing logic
+        run: python3 -m unittest discover -s tests -p test_indexing.py -v
+      - name: Build sitemap and changed URL list
+        run: python3 tools/indexing.py build ${{ github.event_name != 'pull_request' && '--compare-live' || '' }}
+      - name: Stage public files
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git*' --exclude='_site' --exclude='_indexnow-changes.json' --exclude='tools' --exclude='tests' --exclude='__pycache__' --exclude='_notes' ./ _site/
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: indexnow-state
+          include-hidden-files: true
+          path: |
+            indexing-manifest.json
+            _indexnow-changes.json
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: indexnow-state
+      - name: Submit changed URLs after deployment
+        run: python3 tools/indexing.py submit
