@@ -36,4 +36,4 @@ Allow: /
 Disallow: /admin.html
 Disallow: /no-scrape/
 
-Sitemap: https://laloo.org/sitemap.xml
+Sitemap: https://www.laloo.org/sitemap.xml
