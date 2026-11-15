@@ -101,9 +101,12 @@ def submit(root):
         if parsed.scheme != 'https' or parsed.netloc != host or parsed.fragment: raise ValueError('URL is outside the site')
     for start in range(0, len(urls), 10000):
         batch = urls[start:start + 10000]
-        req = Request('https://api.indexnow.org/indexnow', data=json.dumps({'host': host, 'key': key, 'keyLocation': key_url, 'urlList': batch}).encode(), headers={'Content-Type': 'application/json; charset=utf-8'}, method='POST')
-        with urlopen(req, timeout=45) as response:
-            if response.status not in (200, 202): raise ValueError('IndexNow did not accept the submission')
+        req = Request('https://api.indexnow.org/indexnow', data=json.dumps({'host': host, 'key': key, 'keyLocation': key_url, 'urlList': batch}).encode(), headers={'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'SiteIndexing/1.0'}, method='POST')
+        try:
+            with urlopen(req, timeout=45) as response:
+                if response.status not in (200, 202): print(f'::warning::IndexNow status {response.status}; sitemap remains the source of truth'); continue
+        except HTTPError as e:
+            print(f'::warning::IndexNow rejected the submission (HTTP {e.code}); sitemap remains the source of truth'); continue
         print(f'IndexNow accepted {len(batch)} URLs (indexing is not guaranteed)')
     if not urls: print('No changed URLs to submit')
 
