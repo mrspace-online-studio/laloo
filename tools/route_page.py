@@ -101,7 +101,7 @@ def render(path):
 <a class="cta" href="{e(city_href)}">More {e(city)} routes →</a></aside></div>
 <p class="attr">{attrib}</p>
 </main>
-<footer><a href="/">laloo.org</a> · <a href="/routes/">Routes</a> · <a href="{e(city_href)}">{e(city)} routes</a> · © OpenStreetMap contributors · © CARTO</footer>
+<footer><a href="/">laloo.org</a> · <a href="/routes/">Routes</a> · <a href="{e(city_href)}">{e(city)} routes</a> · © OpenStreetMap contributors</footer>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
 <script>var LR={data};</script>
@@ -149,8 +149,8 @@ footer{max-width:1080px;margin:0 auto;padding:18px 16px 40px;border-top:1px soli
 @keyframes drop{from{opacity:0;transform:translateY(-30px) rotate(-45deg)}}
 .lr-h{width:22px;height:22px;border-radius:50%;background:#1b7a3a;border:2px solid #fff;display:flex;align-items:center;justify-content:center;font-size:11px;box-shadow:0 2px 6px rgba(0,0,0,.3)}
 .lr-w{width:18px;height:18px;border-radius:50%;background:#f2a516;border:3px solid #fff;box-shadow:0 0 0 6px rgba(242,165,22,.35);animation:pu 1.2s infinite}@keyframes pu{50%{box-shadow:0 0 0 12px rgba(242,165,22,0)}}
-.lr-line{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:dr 2.4s ease forwards}@keyframes dr{to{stroke-dashoffset:0}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.lr-line{stroke-dasharray:none}}"""
+@media (prefers-color-scheme:dark){.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.6)}}.lr-line{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:dr 2.4s ease forwards}@keyframes dr{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}@media (prefers-color-scheme:dark){.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.6)}}.lr-line{stroke-dasharray:none}}"""
 
 JS = r"""(function(){
 var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15}):null;
@@ -158,7 +158,7 @@ document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay
 function init(){if(!window.L){return setTimeout(init,150)}
 var D=window.LR,dark=matchMedia('(prefers-color-scheme:dark)').matches;
 var map=L.map('map',{scrollWheelZoom:false,zoomControl:true});
-L.tileLayer('https://{s}.basemaps.cartocdn.com/'+'rastertiles/'+(dark?'dark_all':'voyager')+'/{z}/{x}/{y}{r}.png',{maxZoom:19,subdomains:'abcd',attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(map);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
 var b=[];D.pts.forEach(function(p){b.push(p)});D.ms.forEach(function(m){b.push([m.lat,m.lon])});
 if(b.length)map.fitBounds(L.latLngBounds(b).pad(.12));else map.setView([0,0],2);
 var line=null;if(D.pts.length){L.polyline(D.pts,{color:'#fff',weight:9,opacity:.9}).addTo(map);line=L.polyline(D.pts,{color:'#1c4fa0',weight:5,className:'lr-line'}).addTo(map);
