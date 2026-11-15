@@ -62,7 +62,7 @@ document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay
 function init(){if(!window.L){return setTimeout(init,150)}
 var D=window.LR,dark=matchMedia('(prefers-color-scheme:dark)').matches;
 var map=L.map('map',{scrollWheelZoom:false,zoomControl:true});
-L.tileLayer('https://{s}.basemaps.cartocdn.com/'+(dark?'dark_all':'rastertiles/voyager')+'/{z}/{x}/{y}{r}.png',{maxZoom:19,subdomains:'abcd',attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/'+'rastertiles/'+(dark?'dark_all':'voyager')+'/{z}/{x}/{y}{r}.png',{maxZoom:19,subdomains:'abcd',attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(map);
 var b=[];D.pts.forEach(function(p){b.push(p)});D.ms.forEach(function(m){b.push([m.lat,m.lon])});
 if(b.length)map.fitBounds(L.latLngBounds(b).pad(.12));else map.setView([0,0],2);
 var line=null;if(D.pts.length){L.polyline(D.pts,{color:'#fff',weight:9,opacity:.9}).addTo(map);line=L.polyline(D.pts,{color:'#1c4fa0',weight:5,className:'lr-line'}).addTo(map);
