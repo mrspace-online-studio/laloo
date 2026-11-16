@@ -30,7 +30,7 @@ Key facts:
 - [Warsaw](https://laloo.org/warsaw/): 442 public restrooms, 102 hand-picked spots
 - [Osaka](https://laloo.org/osaka/): 943 public restrooms, 0 hand-picked spots
 - [Berlin](https://laloo.org/berlin/): 891 public restrooms, 0 hand-picked spots
-- [Delhi](https://laloo.org/delhi/): 874 public restrooms, 0 hand-picked spots
+- [Delhi](https://laloo.org/delhi/): 875 public restrooms, 0 hand-picked spots
 - [Vienna](https://laloo.org/vienna/): 797 public restrooms, 0 hand-picked spots
 - [Lyon](https://laloo.org/lyon/): 792 public restrooms, 0 hand-picked spots
 - [Istanbul](https://laloo.org/istanbul/): 290 public restrooms, 99 hand-picked spots
