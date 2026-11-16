@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website designed to help you find the nearest public restrooms, cafés, and local tips. It provides a map-based location of these places, offering a convenient way to locate a bathroom quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I use Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can use Laloo directly on the website. It offers a map with locations of public restrooms, cafés, and water stops. You can also explore saved locations and discover new ones through the ‘Explore’ feature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of routes are available on Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo offers a selection of walking routes, currently featuring routes from cities like Barcelona, Berlin, London, Los Angeles, Madrid, Melbourne, Milan, Paris, Rome, Sydney, Taipei, Tokyo, Vatican City, Zurich, and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I download an app for Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Laloo does not require you to download an app. You can access all its features directly through the website at https://www.laloo.org."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contribute to Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can help Laloo by adding new bathroom locations or sharing stories about interesting places you’ve found. You can also provide tips for others and add a photo of the door or sign."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the ‘Surprise me’ feature do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ‘Surprise me’ feature on Laloo will randomly suggest a nearby bathroom or tip, helping you discover new locations you might not have known about. It’s a great way to explore your surroundings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I find information about a specific place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can use the ‘Where is it?’ feature to locate a specific place on the map. You can also add your own tip for others, providing helpful information about the location."
+      }
+    }
+  ]
+}
