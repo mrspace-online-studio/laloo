@@ -28,7 +28,7 @@ Key facts:
 - [Sydney](https://laloo.org/sydney/): 1156 public restrooms, 0 hand-picked spots
 - [Hong Kong](https://laloo.org/hong-kong/): 977 public restrooms, 0 hand-picked spots
 - [Warsaw](https://laloo.org/warsaw/): 442 public restrooms, 102 hand-picked spots
-- [Osaka](https://laloo.org/osaka/): 942 public restrooms, 0 hand-picked spots
+- [Osaka](https://laloo.org/osaka/): 943 public restrooms, 0 hand-picked spots
 - [Berlin](https://laloo.org/berlin/): 891 public restrooms, 0 hand-picked spots
 - [Delhi](https://laloo.org/delhi/): 874 public restrooms, 0 hand-picked spots
 - [Vienna](https://laloo.org/vienna/): 797 public restrooms, 0 hand-picked spots
