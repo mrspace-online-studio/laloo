@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes in Sydney. These routes highlight locations of restroom and drinking water points along the way, helping you plan your journey."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Sydney on Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo features three walking routes in Sydney. These routes explore different areas of the city and provide useful information for walkers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about the 'Liman ve Opera' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Liman ve Opera' route, which translates to 'Harbour and Opera', covers a distance of 2.155 km and takes approximately 28 minutes and 26 seconds to complete. It passes by the Sydney Opera House, Royal Botanic Garden, Circular Quay, and The Rocks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the 'Darling Harbour' route include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Darling Harbour' route is 2.711 km long and takes around 38 minutes and 40 seconds to walk. You'll pass Hyde Park, St Mary's Cathedral, Queen Victoria Building, and Darling Harbour. Drinking water is available at a recorded point on this route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the length of the 'Botanic Garden and Domain' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Botanic Garden and Domain' route extends 3.05 km and takes approximately 39 minutes and 43 seconds to walk. This route includes stops at the Royal Botanic Garden Sydney, Mrs Macquarie's Chair, the Art Gallery of New South Wales, and Hyde Park Barracks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about opening hours or fees for the places on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not currently verify the opening hours, fees, or accessibility details for the locations featured on its walking routes. It is recommended to check these details separately before you go."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are restroom and drinking water points always available on the Laloo routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not all routes have recorded restroom or drinking water points. Routes 'Liman ve Opera' and 'Botanic Garden and Domain' do not have any recorded points, while 'Darling Harbour' does have a drinking water point."
+      }
+    }
+  ]
+}

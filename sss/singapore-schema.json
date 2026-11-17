@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes. It provides information about locations of restrooms and drinking water near the routes. You can find walking routes for Singapore on the Laloo website."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Singapore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, there is one walking route available in Singapore on Laloo. It's called 'Marina and River'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the 'Marina and River' route include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Marina and River' route takes you past several points of interest including Merlion Park, Esplanade, Helix Bridge and Gardens by the Bay. The route covers a distance of 2.528 km and takes approximately 33 minutes and 30 seconds to complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there restrooms or drinking water points available along the 'Marina and River' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, Laloo has not recorded any restroom or drinking water points along the 'Marina and River' route at this time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo verify the opening hours or fees for the places featured on its routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility of the locations included in its walking routes. It's best to check this information directly with the specific locations before your visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can find Laloo at https://www.laloo.org. This is where you will find the available walking routes and related information."
+      }
+    }
+  ]
+}
