@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes. It helps you explore Valencia and other cities. The routes highlight locations of restrooms and drinking water, so you know where to find facilities along the way."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Valencia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, there is one walking route available in Valencia on Laloo. It’s a great way to discover the city on foot!"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the theme of the Valencia walking route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Valencia route’s theme focuses on Turia Park and art. It’s a journey through these features of the city, designed for walkers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What landmarks does the Valencia route pass by?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The route includes several points of interest: Torres de Serranos, Jardin del Turia, Museo de Bellas Artes de Valencia, and Puente del Real. These locations are part of the walking experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the Valencia walking route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The route covers a distance of 3.401 kilometers. It takes approximately 43 minutes and 16 seconds to complete at a normal walking pace."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are restroom and drinking water points available along the Valencia route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo has not recorded any restroom or drinking water points directly on the Valencia walking route. Please plan accordingly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about opening hours or fees for the landmarks on the route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility of the landmarks featured on the Valencia route. It's recommended to check this information separately before you go."
+      }
+    }
+  ]
+}

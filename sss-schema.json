@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website designed to help you find the nearest public restrooms, cafés, and local tips. It provides a map-based location of these places, offering a convenient way to locate a bathroom quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I use Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can use Laloo by visiting the website at https://www.laloo.org. The site offers a map with various locations, including public restrooms, cafés, and water stops. You can also explore saved locations and discover new places."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of walking routes does Laloo offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo provides a selection of pre-made walking routes, currently featuring routes in cities such as Barcelona, Berlin, London, Los Angeles, Madrid, Melbourne, Milan, Paris, Rome, Sydney, Taipei, Tokyo, Vatican City, Zurich and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I download an app for Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Laloo does not require you to download an app. The website is accessible directly through your web browser, offering a simple and convenient way to find nearby bathroom locations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I add a bathroom location to Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can add a bathroom location by using the 'Add a bathroom' feature on the website. You’ll be prompted to enter the place name, location details, and optionally, add a photo and a tip for others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What other information does Laloo provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Besides bathroom locations, Laloo also includes water stops and local tips. Users can share stories about interesting places they’ve discovered, contributing to the Laloo community and helping others find useful information."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you own a business nearby or want to share a place that isn't currently listed, you can advertise on Laloo or share your story through the website’s 'About' section. This helps expand the Laloo database and provides valuable local insights."
+      }
+    }
+  ]
+}
