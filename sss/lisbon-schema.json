@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes. It helps you locate facilities such as restrooms and drinking water sources along the way. You can find it at https://www.laloo.org."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find Laloo routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo offers walking routes in Lisbon. There is one route available in Lisbon at this time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Route 1 in Lisbon about?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Route 1 in Lisbon, titled 'Alfama and viewpoint', takes you to several points of interest. These include Lisbon Cathedral, Miradouro de Santa Luzia, Castelo de Sao Jorge, and Miradouro da Graca."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is Route 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Route 1 in Lisbon covers a distance of 2.251 kilometers. The walking time is approximately 32 minutes and 5 seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there restrooms or drinking water points on Route 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo has not recorded any restroom or drinking water points along Route 1 in Lisbon. Please plan accordingly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo verify the opening hours or fees for the places on its routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility of the locations featured on its walking routes. It’s best to check this information separately before you go."
+      }
+    }
+  ]
+}

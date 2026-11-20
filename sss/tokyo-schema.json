@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes in Tokyo. The routes highlight locations of restrooms and drinking water sources along the way, to help you stay comfortable during your walk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Tokyo on Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo provides three walking routes in Tokyo. These routes offer different experiences and cover varied areas of the city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about the 'Asakusa ve Ueno' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Asakusa ve Ueno' route covers a distance of 3.126 km, taking approximately 39 minutes and 37 seconds to complete. It includes stops at Senso-ji, Nakamise-dori, Ueno Park, and the Tokyo National Museum. Drinking water is available along this route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in the 'Harajuku ve Yoyogi' walking route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Harajuku ve Yoyogi' route is 3.158 km long and takes roughly 41 minutes and 41 seconds to walk. You'll pass Meiji Shrine, Yoyogi Park, Harajuku Station, and Takeshita Street. A cafe, グリム原宿店, provides drinking water along this route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Could you describe the 'Imperial Palace and gardens' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Imperial Palace and gardens' route spans 2.679 km and takes about 38 minutes and 32 seconds to walk. Stops include Tokyo Station, Imperial Palace East Gardens, Kitanomaru Park, and Nippon Budokan. No restroom or water points have been recorded on this route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information on opening hours or fees for the stops on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility of the locations featured on its walking routes. You’ll need to check this information elsewhere before you go."
+      }
+    }
+  ]
+}
