@@ -25,7 +25,7 @@ Key facts:
 - [Moscow](https://laloo.org/moscow/): 1384 public restrooms, 0 hand-picked spots
 - [New York City](https://laloo.org/new-york/): 780 public restrooms, 96 hand-picked spots
 - [Taipei](https://laloo.org/taipei/): 1240 public restrooms, 0 hand-picked spots
-- [Sydney](https://laloo.org/sydney/): 1156 public restrooms, 0 hand-picked spots
+- [Sydney](https://laloo.org/sydney/): 1159 public restrooms, 0 hand-picked spots
 - [Hong Kong](https://laloo.org/hong-kong/): 982 public restrooms, 0 hand-picked spots
 - [Warsaw](https://laloo.org/warsaw/): 442 public restrooms, 102 hand-picked spots
 - [Osaka](https://laloo.org/osaka/): 943 public restrooms, 0 hand-picked spots
@@ -52,9 +52,9 @@ Key facts:
 - [Shanghai](https://laloo.org/shanghai/): 541 public restrooms, 0 hand-picked spots
 - [Manila](https://laloo.org/manila/): 520 public restrooms, 0 hand-picked spots
 - [Munich](https://laloo.org/munich/): 510 public restrooms, 0 hand-picked spots
-- [Vancouver](https://laloo.org/vancouver/): 490 public restrooms, 0 hand-picked spots
 - [Sapporo](https://laloo.org/sapporo/): 477 public restrooms, 0 hand-picked spots
 - [Denver](https://laloo.org/denver/): 476 public restrooms, 0 hand-picked spots
+- [Vancouver](https://laloo.org/vancouver/): 463 public restrooms, 0 hand-picked spots
 - [Brisbane](https://laloo.org/brisbane/): 457 public restrooms, 0 hand-picked spots
 - [Guangzhou](https://laloo.org/guangzhou/): 457 public restrooms, 0 hand-picked spots
 - [Izmir](https://laloo.org/izmir/): 42 public restrooms, 83 hand-picked spots
@@ -63,8 +63,8 @@ Key facts:
 - [Bangkok](https://laloo.org/bangkok/): 446 public restrooms, 0 hand-picked spots
 - [Auckland](https://laloo.org/auckland/): 430 public restrooms, 0 hand-picked spots
 - [Toronto](https://laloo.org/toronto/): 428 public restrooms, 0 hand-picked spots
-- [Prague](https://laloo.org/prague/): 419 public restrooms, 0 hand-picked spots
 - [Milan](https://laloo.org/milan/): 411 public restrooms, 0 hand-picked spots
+- [Prague](https://laloo.org/prague/): 411 public restrooms, 0 hand-picked spots
 - [Copenhagen](https://laloo.org/copenhagen/): 406 public restrooms, 0 hand-picked spots
 - [Helsinki](https://laloo.org/helsinki/): 400 public restrooms, 0 hand-picked spots
 - [Lisbon](https://laloo.org/lisbon/): 387 public restrooms, 0 hand-picked spots
