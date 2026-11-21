@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes. These routes highlight locations where you can find restrooms and drinking water. You can find Laloo at https://www.laloo.org."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are Laloo walking routes available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo features walking routes in Montreal. There is one route available within the city as of now."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about Route 1 in Montreal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Route 1 in Montreal is themed 'Old Montreal and the Port'. It includes stops at Notre-Dame Basilica, Place Jacques-Cartier, Old Port of Montreal, and Chinatown Montreal. The route is 2.435 km long and takes approximately 29 minutes and 28 seconds to complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there restrooms or drinking water points along Route 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, Laloo has not recorded any restroom or drinking water points along Route 1. Please plan accordingly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about the opening hours of the stops on its routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours of the locations featured on its routes. It's a good idea to check the hours independently before you go."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about fees or accessibility for the stops on its routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify information about fees or accessibility at the stops included in its walking routes. You should confirm this information directly with the relevant locations."
+      }
+    }
+  ]
+}
