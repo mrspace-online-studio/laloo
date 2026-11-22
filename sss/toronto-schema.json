@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes in Toronto. It helps you explore the city on foot, highlighting locations of restrooms and drinking water along the way."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Toronto on Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, there are two walking routes available in Toronto through Laloo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the names of the Toronto walking routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The routes are named 'Merkez ve universiteler' and 'Liman ve merkez'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What landmarks are included in the 'Merkez ve universiteler' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This route includes Toronto City Hall, Osgoode Hall, the Art Gallery of Ontario, and Queen's Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the 'Liman ve merkez' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Liman ve merkez' route covers a distance of 3.335 km and takes approximately 39 minutes and 45 seconds to complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are restroom and drinking water points listed for the Toronto routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No restroom or drinking water points have been recorded along either of the Toronto walking routes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about the opening hours or fees for the landmarks on its routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility details for the locations featured on its walking routes."
+      }
+    }
+  ]
+}

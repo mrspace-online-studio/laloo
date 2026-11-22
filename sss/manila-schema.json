@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo is a website offering walking routes in Manila. The site provides routes with information about the locations of restrooms and drinking water nearby."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Manila on Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo features two walking routes in Manila."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about the 'Ermita ve Rizal' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This route, translated as 'Ermita and Rizal,' covers a distance of 2.211 kilometers and takes approximately 30 minutes and 38 seconds to complete. It includes stops at Rizal Park, the National Museum of Fine Arts, Manila City Hall, and Intramuros."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about the 'Rizal Park ve cevresi' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The route 'Rizal Park and its surroundings' is 2.27 kilometers long and takes around 30 minutes and 5 seconds to walk. Stops along this route include Rizal Park, the National Museum of Fine Arts, the National Museum of Anthropology, and Paco Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any restroom or drinking water locations marked on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, no restroom or drinking water points have been recorded along either of the Manila walking routes on Laloo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information on opening hours or fees for the places I might visit along the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility details for any of the stops featured on the walking routes."
+      }
+    }
+  ]
+}
