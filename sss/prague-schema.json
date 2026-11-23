@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo offers walking routes in various cities. Their website, https://www.laloo.org, provides routes that highlight locations of restroom and drinking water facilities nearby."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Prague?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, there are two walking routes available in Prague through Laloo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about the 'Eski sehir ve meydanlar' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This route, translated as 'Old City and Squares,' covers a distance of 2.46 kilometers and takes approximately 29 minutes and 47 seconds to complete. It includes stops at Wenceslas Square, Municipal House, Old Town Square, and Charles Bridge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about the 'Kale ve Mala Strana' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Castle and Mala Strana' route is 2.606 kilometers long and takes roughly 31 minutes and 56 seconds to walk. Key stops on this route are Prague Castle, St. Vitus Cathedral, Lennon Wall, and Wallenstein Garden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are restroom and water points marked on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, Laloo has not recorded any restroom or drinking water points along either of the Prague walking routes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about opening hours or fees for the stops on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours, fees, or accessibility of the locations featured on their walking routes."
+      }
+    }
+  ]
+}
