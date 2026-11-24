@@ -58,8 +58,8 @@ Key facts:
 - [Brisbane](https://laloo.org/brisbane/): 458 public restrooms, 0 hand-picked spots
 - [Guangzhou](https://laloo.org/guangzhou/): 457 public restrooms, 0 hand-picked spots
 - [Izmir](https://laloo.org/izmir/): 42 public restrooms, 83 hand-picked spots
+- [Cape Town](https://laloo.org/cape-town/): 456 public restrooms, 0 hand-picked spots
 - [Barcelona](https://laloo.org/barcelona/): 450 public restrooms, 0 hand-picked spots
-- [Cape Town](https://laloo.org/cape-town/): 450 public restrooms, 0 hand-picked spots
 - [Bangkok](https://laloo.org/bangkok/): 447 public restrooms, 0 hand-picked spots
 - [Auckland](https://laloo.org/auckland/): 444 public restrooms, 0 hand-picked spots
 - [Toronto](https://laloo.org/toronto/): 428 public restrooms, 0 hand-picked spots
@@ -75,8 +75,8 @@ Key facts:
 - [Montreal](https://laloo.org/montreal/): 341 public restrooms, 0 hand-picked spots
 - [Lima](https://laloo.org/lima/): 334 public restrooms, 0 hand-picked spots
 - [Riga](https://laloo.org/riga/): 332 public restrooms, 0 hand-picked spots
-- [Seattle](https://laloo.org/seattle/): 325 public restrooms, 0 hand-picked spots
 - [Portland](https://laloo.org/portland/): 317 public restrooms, 0 hand-picked spots
+- [Seattle](https://laloo.org/seattle/): 316 public restrooms, 0 hand-picked spots
 
 ## Loo Routes (walks with bathroom stops)
 - [Santa Monica to Venice Beach: every bathroom stop on the walk](https://laloo.org/routes/santa-monica-to-venice-beach-bathrooms/)
