@@ -1,21 +1,17 @@
 # Laloo
-
 > Laloo (laloo.org) is a free web map that helps travelers find the nearest bathroom anywhere, with no app to download. It shows public restrooms, hand-picked spots and cafés, walking directions, drinking water, and short travel stories written by real people, not AI.
-
 Key facts:
 - Covers 186 cities with their own pages; the live map works worldwide using OpenStreetMap data plus places checked by the Laloo team.
 - 12 languages, picked automatically from the phone's language. No account needed to use the map.
 - Local businesses on the way can appear as red pins with a discount code. Paid listings are always labeled.
 - Started in 2026 at a small shop on the Venice Beach boardwalk in Los Angeles, where visitors kept asking where the bathroom was.
 - Contact: hello@laloo.org
-
 ## Main pages
 - [Live map](https://laloo.org/): nearest bathroom from your location
 - [All cities](https://laloo.org/cities/): public bathrooms city by city
 - [Laloo Stories](https://laloo.org/stories/): travel stories by real people, with the places and bathrooms they mention
 - [Rate a bathroom](https://laloo.org/rate/): two-tap ratings, checked before they appear
 - [About](https://laloo.org/about/): how Laloo works
-
 ## City pages
 - [San Francisco Bay Area](https://laloo.org/san-francisco-bay-area/): 2093 public restrooms, 96 hand-picked spots
 - [Tokyo](https://laloo.org/tokyo/): 2483 public restrooms, 0 hand-picked spots
@@ -77,9 +73,33 @@ Key facts:
 - [Riga](https://laloo.org/riga/): 333 public restrooms, 0 hand-picked spots
 - [Portland](https://laloo.org/portland/): 317 public restrooms, 0 hand-picked spots
 - [Seattle](https://laloo.org/seattle/): 316 public restrooms, 0 hand-picked spots
-
 ## Loo Routes (walks with bathroom stops)
 - [Santa Monica to Venice Beach: every bathroom stop on the walk](https://laloo.org/routes/santa-monica-to-venice-beach-bathrooms/)
 - [Midtown Manhattan: a bathroom-friendly walk from Times Square to Central Park](https://laloo.org/routes/midtown-manhattan-bathrooms-walk/)
 - [Eiffel Tower to the Louvre: a Paris walk with bathroom stops](https://laloo.org/routes/eiffel-tower-to-louvre-bathrooms/)
 - [Istanbul's old city on foot: every toilet stop from Sultanahmet to the Spice Bazaar](https://laloo.org/routes/istanbul-old-city-toilets-sultanahmet-grand-bazaar/)
+> Find the nearest bathroom anywhere: public restrooms, cafés and local tips on one map. No app to download.
+## Walking routes
+- [Barcelona walking route: Beach and Ciutadella · Laloo](https://www.laloo.org/routes/barcelona/beach-and-ciutadella/)
+- [Barcelona walking route: Passeig de Gracia · Laloo](https://www.laloo.org/routes/barcelona/passeig-de-gracia/)
+- [Berlin walking route: Museum Island and Alexanderplatz · Laloo](https://www.laloo.org/routes/berlin/museum-island-and-alexanderplatz/)
+- [London walking route: Tower and Southwark · Laloo](https://www.laloo.org/routes/london/tower-and-southwark/)
+- [Los Angeles walking route: Hollywood Boulevard · Laloo](https://www.laloo.org/routes/los-angeles/hollywood-boulevard/)
+- [Los Angeles walking route: Santa Monica Center · Laloo](https://www.laloo.org/routes/los-angeles/santa-monica-center/)
+- [Madrid walking route: Art Triangle · Laloo](https://www.laloo.org/routes/madrid/art-triangle/)
+- [Melbourne walking route: Docklands and Flagstaff · Laloo](https://www.laloo.org/routes/melbourne/docklands-and-flagstaff/)
+- [Melbourne walking route: Federation Square and Degraves · Laloo](https://www.laloo.org/routes/melbourne/federation-square-and-degraves/)
+- [Milan walking route: Castle and Park · Laloo](https://www.laloo.org/routes/milan/castle-and-park/)
+- [Paris walking route: Historic Center and River · Laloo](https://www.laloo.org/routes/paris/historic-center-and-river/)
+- [Paris walking route: Louvre and Palais Royal · Laloo](https://www.laloo.org/routes/paris/louvre-and-palais-royal/)
+- [Rome walking route: Ancient Rome · Laloo](https://www.laloo.org/routes/rome/ancient-rome/)
+- [Rome walking route: River and Squares · Laloo](https://www.laloo.org/routes/rome/river-and-squares/)
+- [Sydney walking route: Darling Harbour · Laloo](https://www.laloo.org/routes/sydney/darling-harbour/)
+- [Taipei walking route: 228 Park and Taipei Station · Laloo](https://www.laloo.org/routes/taipei/228-park-and-taipei-station/)
+- [Taipei walking route: Ximending and Monuments · Laloo](https://www.laloo.org/routes/taipei/ximending-and-monuments/)
+- [Tokyo walking route: Asakusa and Ueno · Laloo](https://www.laloo.org/routes/tokyo/asakusa-and-ueno/)
+- [Tokyo walking route: Harajuku and Yoyogi · Laloo](https://www.laloo.org/routes/tokyo/harajuku-and-yoyogi/)
+- [Vatican City walking route: Vatican Area · Laloo](https://www.laloo.org/routes/vatican/vatican-area/)
+- [Zurich walking route: Limmat and Rathaus · Laloo](https://www.laloo.org/routes/zurich/limmat-and-rathaus/)
+## Optional
+- [Home](https://www.laloo.org/)

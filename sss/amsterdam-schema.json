@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Laloo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo provides walking routes in various cities. The website, accessible at https://www.laloo.org, highlights locations with restroom and drinking water facilities along the routes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many walking routes are available in Amsterdam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, there are two walking routes available for exploration in Amsterdam through Laloo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tell me about the 'Merkez ve Jordaan' route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Merkez ve Jordaan' route covers a distance of 2.335 km and takes approximately 28 minutes and 20 seconds to complete on foot. It includes stops at Amsterdam Centraal, Dam Square, Westerkerk and Noordkerk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the 'Museumplein ve Vondelpark' route include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 'Museumplein ve Vondelpark' route is 3.159 km long and takes roughly 37 minutes and 46 seconds to walk. Featured locations on this route are the Rijksmuseum, Van Gogh Museum, Vondelpark and Concertgebouw."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are restroom and water facilities available along the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, no restroom or drinking water points have been recorded along either of the Amsterdam walking routes currently offered on Laloo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about opening hours for the stops on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the opening hours for the locations featured on the walking routes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about fees for the stops on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify any fees associated with the stops along the walking routes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Laloo provide information about accessibility of the stops on the routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Laloo does not verify the accessibility of the locations included in the walking routes."
+      }
+    }
+  ]
+}
